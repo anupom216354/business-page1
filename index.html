@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Business Page</title>
+  <meta name="description" content="Amirul Thai Aluminium & Steel - Aluminium and Steel Services in Bangladesh. Contact: +8801739408237">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(120deg, #b33ad5, #00d2ff);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Full-width top section with cover photo */
+    .image-section {
+      width: 100%;
+      height: 300px; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url("image copy 2.png") no-repeat center center;
+      background-size: contain;   
+      background-color: #fff;     
+    }
+
+    /* Round container for logo */
+    .image-container {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000;
+    }
+
+    .image-container img {
+      width: 90%;
+      height: 90%;
+      object-fit: contain;
+    }
+
+    /* Info container */
+    .container {
+      max-width: 1000px;
+      width: 90%;
+      padding: 40px 20px;
+      background: #fff;
+      border-radius: 15px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      font-weight: 700;
+      color: rgb(0,0,0);
+    }
+
+    .info {
+      margin: 10px 0;
+      font-size: 1rem;
+      color: rgb(0,0,0);
+    }
+
+    .info a {
+      color: rgb(0,0,0);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .info a:hover {
+      text-decoration: underline;
+    }
+
+    .links {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .links a {
+      display: block;
+      padding: 12px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      color: #000;
+      background: rgba(0, 255, 255, 0.3);/rgba(0, 128, 255, 0.3)/
+      transition: 0.3s;
+    }
+
+    .links a:hover {
+      background: #ffd700;
+      color: #000;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      .container {
+        padding: 30px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Top image section with background photo -->
+  <div class="image-section">
+    <div class="image-container">
+      <img src="image copy.png" alt="Business Logo">
+    </div>
+  </div>
+
+  <!-- Info -->
+  <div class="container">
+    <h1>AMIRUL THAI ALUMINIUM & STEEL</h1>
+    <p class="info">📞 <a href="tel:+8801739408237">+8801739408237</a></p>
+    <p class="info">✉ <a href="mailto:amirulthai25@gmail.com">amirulthai25@gmail.com</a></p>
+
+    <div class="links">
+      <a href="https://wa.me/+8801739408237" target="_blank">💬 WhatsApp</a>
+      <a href="https://www.facebook.com/share/1C8HTDvxR3/" target="_blank">📘 Facebook</a>
+    </div>
+  </div>
+</body>
+</html>
